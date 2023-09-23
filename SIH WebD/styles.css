@@ -50,7 +50,6 @@ html,body{
 }
 .nav2 h4:hover{
     border-bottom: 1px solid black;
-    transition-duration: 1s;
 }
 .nav h2{
     font-size:2vw;
@@ -257,6 +256,7 @@ button{
 }
 .nav-button:hover,h4:hover{
     transform: translateY(-0.5vw);
+    transition-duration:1s;
 }
 
 @media (max-width:600px) {

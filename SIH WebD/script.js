@@ -115,7 +115,7 @@ function page3Animation(){
     },
     opacity:0,
     delay:1,
-    x:-100,
+    // x:-100,
     duration:1.5
   })
 
@@ -129,7 +129,7 @@ gsap.from(".message-dets",{
   },
   opacity:0,
   delay:1,
-  x:100,
+  // x:100,
   duration:1.5
 })
 }

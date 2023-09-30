@@ -195,9 +195,23 @@ button{
     }
 
     .page5{
-        height: 100vh;
+        height: 60vh;
         width: 100%;
-        background-color: aqua;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .page5 .content{
+        height:80%;
+        width: 30%;
+    }
+    .page5 h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        font-weight: 800;
     }
 
 @media only screen and (max-width: 768px){
@@ -228,4 +242,3 @@ button{
     }
     
 }
-

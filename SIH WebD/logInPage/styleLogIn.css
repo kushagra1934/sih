@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mooli&family=Poppins:ital,wght@0,600;1,300&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik;
+    color: rgb(255, 255, 255);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(95, 95, 255),rgb(77, 77, 142));
+}
+.cursor{
+    background-color: rgba(109, 164, 241, 0.607);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: fixed;
+}
+.nav{
+    height:10vh;
+    width: 100%;
+    /* background-color: #d17e209f; */
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8vw ;
+}
+.nav .logo{
+    padding:2vw 1vw;
+
+}
+.nav .utilities{
+    height:90%;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .utilities button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.nav .utilities button:hover{
+    transform: translateY(-4px);
+    color: #d17e20;
+    transition: all ease-in-out 0.5s;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 40%;
+    height: 80%;
+    background-color: #7e7e7e88;
+    border-radius: 26px;
+    padding: 2vw;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition-duration: 1s;
+}
+.box h1{
+    text-align: center;
+}
+.box form{
+    margin: 2vw 3vw;
+    padding:20px
+}
+.box form .label-id,.box form .label-Password{
+    margin-bottom: 2vw;
+    font-size: 1.5vw;
+}
+#id,#password{
+    height: 10%;
+    margin: 2vw 0.21vw;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+#id::placeholder {
+    color: rgba(255, 255, 255, 0.664);
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.submit button{
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 26px;
+    padding: 2vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

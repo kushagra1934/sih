@@ -166,6 +166,16 @@ function colorChange(){
     color : "black",
     duration :1
   })
+  gsap.to(["h2","button"],{
+    scrollTrigger:{
+      trigger:[".page3",".page4"],
+      scroller:".main",
+      scrub:4,
+      start:"top 50%",
+      end:"bottom 50%"
+    },
+    color:"black",
+  })
 }
 
 colorChange()
